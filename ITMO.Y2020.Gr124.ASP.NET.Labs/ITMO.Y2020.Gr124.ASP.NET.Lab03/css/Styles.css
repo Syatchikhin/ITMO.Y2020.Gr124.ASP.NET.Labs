@@ -1,6 +1,8 @@
 ﻿body {
     font-family: Verdana, Arial;
     color: navy;
+    background-image: url("../images/fon01.png");
+    
 }
 
 h1 {
@@ -8,7 +10,6 @@ h1 {
     padding: 2px 0;
     font-size: 30px;
     font-weight: bold;
-    color:navy;
 }
 
 #form1 label {
@@ -36,7 +37,7 @@ table, td, th {
     border: thin solid black;
     border-collapse: collapse;
     padding: 5px;
-    background-color: lemonchiffon;
+    background-color: #effaff;
     text-align: left;
     margin: 10px 0;
 } 
