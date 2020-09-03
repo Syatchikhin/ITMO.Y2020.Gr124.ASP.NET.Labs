@@ -6,14 +6,17 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-     <link rel="stylesheet" href="Styles.css" />
+     
+    <link rel="stylesheet" href="Styles.css" /> 
+
 </head>
 <body>
     <form id="form1" runat="server">
      <div> 
         <div class="rek"> 
-            <h1>Приглашение на семинар</h1> 
-            <p>Уважаемый преподаватель</p>
+            <h1>Приглашение на семинар</h1>
+            
+            <p style="color: red;">Уважаемый преподаватель</p>
             <p>Вы приглашены на наш семинар по ASP.NET</p> 
             <p>Подтвердите свое согласие, пройдя регистрацию</p> 
         </div> 
