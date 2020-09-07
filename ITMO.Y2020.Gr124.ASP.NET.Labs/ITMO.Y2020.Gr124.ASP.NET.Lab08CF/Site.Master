@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ITMO.Y2020.Gr124.ASP.NET.Lab08CF.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>RSVP</title>
+    <link rel="stylesheet" type="text/css" href="css/Styles.css" />
+</head>
+
+
+
+
+<body>
+    <form id="form1" runat="server">
+        <div>
+           
+            <table class="table">
+                <tr>
+                    <td colspan="2" class="header" > 
+                        <h2 >ИТМО</h2> 
+                        
+                        </td>
+                </tr>
+                <tr>
+                    <td class="menu">&nbsp;
+                         
+                       <div class="menu">
+                            <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                            EnableViewState="false" Orientation="Vertical" > 
+                                <Items> 
+                                    <asp:MenuItem NavigateUrl="~/Start.aspx" Text="Главная"/> 
+                                    <asp:MenuItem NavigateUrl="~/Reg1.aspx" Text="Регистрация"/> 
+                                    <asp:MenuItem NavigateUrl="~/Summary1.aspx" Text="Отчет о регистрации"/> 
+                                    <asp:MenuItem NavigateUrl="~/About.aspx" Text="Подробности"/> 
+                                </Items> 
+                        </asp:Menu>
+                       </div>
+                    </td>
+                    <td class="content">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="footer">&nbsp;
+                         <%--Нижний колонтитул--%> 
+                         <div>
+                              <ul class="footer_menu"> 
+                                <li><a href="Start.aspx">Главная</a></li> 
+                                <li><a href="Reg1.aspx">Регистрация</a></li> 
+                                <li><a href="Summary1.aspx">Отчет о регистрации</a></li> 
+                                <li><a href="About.aspx">Подробности</a></li> 
+                            </ul> 
+                        </div>
+                    </td>
+                </tr>
+            </table>
+           
+        </div>
+    </form>
+</body>
+</html>
