@@ -1,0 +1,127 @@
+﻿body {
+    font-family: Verdana, Arial;
+    color: #1d6a89;
+    background-image: url("../images/fon01.png");
+}
+
+h1 {
+    margin: 0px;
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f47d52;
+}
+
+#form1 label {
+    width: 120px;
+    display: inline-block;
+}
+
+#form1 input {
+    margin: 2px;
+    margin-left: 4px;
+    width: 150px;
+}
+
+#form1 select {
+    margin: 2px 0;
+    width: 154px;
+}
+
+#report label {
+    width: 255px;
+}
+
+#doklad label {
+    width: 250px;
+    padding: 20px 0 20px 0;
+}
+
+button[type=submit] {
+    margin-top: 25px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+table, td, th {
+    border: thin solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    background-color: #effaff;
+    text-align: left;
+    margin: 10px 0;
+}
+
+td, th {
+    padding: 0 20px 0 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    vertical-align: text-top;
+    height: 50px;
+    background-color: #bdddea;
+}
+
+.menu {
+    width: 200px;
+    height: 200px;
+}
+
+.content {
+    height: 200px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #bdddea;
+}
+
+    .footer a {
+        font-size: 14px;
+        text-align: left;
+        text-decoration: none;
+        color: #1d6a89;
+    }
+
+.footer_menu li {
+    margin: 0px;
+    padding: 0 20px;
+    display: inline;
+    border-right: 1px solid #000000;
+    
+}
+
+#NavigationMenu a {
+    color: #f47d52;
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+#ContentPlaceHolder1_mailerror,
+#ContentPlaceHolder1_validationSummary {
+    color: #cc0000;
+}
+
+.debugtext {
+    font-size: 10px;
+}
+
+#ContentPlaceHolder1_GridView1 {
+    font-size: 16px;
+}
+
+.table2 {
+    font-size: 16px;
+}
